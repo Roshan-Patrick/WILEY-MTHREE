@@ -1,0 +1,29 @@
+
+public class Employye {
+	
+	int empId;
+	String empName;
+	int empCounter;
+
+	public Employye(int empId, String empName) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		System.out.println("Counter increased by one...");
+		empCounter++;
+	}
+	
+	public int EmployeeCounter() {
+		return empCounter;
+	}
+
+	public static void main(String[] args) {
+		
+		Employye employye1 = new Employye(101, "abc");
+		Employye employye2 = new Employye(102, "def");
+		Employye employye3 = new Employye(103, "xyz");
+		
+		System.out.println("Counter : "+ employye3.EmployeeCounter());
+	}
+
+}
