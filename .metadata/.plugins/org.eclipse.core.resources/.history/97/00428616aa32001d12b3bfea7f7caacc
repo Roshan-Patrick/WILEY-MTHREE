@@ -1,5 +1,0 @@
-
-public enum Coffee {
-	NESCAFFE, CAPACINO, LATTE, EXPRESSO
-
-}
